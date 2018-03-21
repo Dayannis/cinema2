@@ -10,7 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+//rutas de prueba
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get ('index', 'FrontController@index');
+Route::get ('contacto', 'FrontController@contacto');
+Route::get ('reviews', 'FrontController@reviews');
